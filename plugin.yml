@@ -1,0 +1,19 @@
+name: ClearPack
+main: ClearPack/MainClear
+api: [3.0.0-ALPHA12, 3.0.0]
+version: 1.0.0
+author: benzo
+
+commands:
+
+Clearinv:
+description: "Clear selected Players inv."
+permission: clearinv.use
+
+ClearArmor:
+description: "Clear selected Players armor."
+permission: cleararmor.use
+
+ClearAll:
+description: "Clear all items of a selected Player"
+permission: clearall.use
